@@ -1,4 +1,4 @@
-# Getting a Rust-compiled WebAssembly from wasm-pack working
+# Getting a Rust-compiled WebAssembly module from wasm-pack working in Next.JS
 
 ## Bootstrap a Next app
 
