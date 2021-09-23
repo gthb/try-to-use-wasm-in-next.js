@@ -1,10 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { greet } from 'hello-wasm-pack';
+import { greeting } from 'hello-wasm';
 
 export default function Home() {
-  greet();
   return (
     <div className={styles.container}>
       <Head>
@@ -19,8 +18,8 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Greeting:
+          <code className={styles.code}>{ greeting("Bob") }</code>
         </p>
 
         <div className={styles.grid}>
