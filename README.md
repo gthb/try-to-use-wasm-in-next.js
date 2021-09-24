@@ -1,5 +1,7 @@
 # Getting a Rust-compiled WebAssembly module from wasm-pack working in Next.JS
 
+The story so far (basically a retelling of the git history of this repo):
+
 ## Bootstrap a Next app
 
 Run `npx create-next-app` and enter the directory it creates.
@@ -518,3 +520,11 @@ The `hello-wasm-pack` example uses `alert` 😢 so make it do `console.log` inst
 ```
 
 And now I get the message console-logged from SSR and alerted (twice, because React) in the browser.
+
+## Cleanup hello-wasm, rename to hi-wasm, add run-scripts to build and link it
+
+(just for clarity and conciseness and a sneaky reference to “For All Mankind”)
+
+## Set config.output.webassemblyModuleFilename
+
+... to match [the Next.js with-webassembly example](https://github.com/vercel/next.js/blob/canary/examples/with-webassembly/next.config.js).
