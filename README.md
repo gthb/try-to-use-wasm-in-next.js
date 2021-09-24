@@ -1,6 +1,8 @@
 # Getting a Rust-compiled WebAssembly module from wasm-pack working in Next.JS
 
-The story so far (basically a retelling of the git history of this repo):
+Current state of this repo: failing with (and thus demonstrating) the bug reported at https://github.com/vercel/next.js/issues/29362
+
+The rest of this README is the story of experimenting towards the current state (basically a retelling of the git history of this repo).
 
 ## Bootstrap a Next app
 
