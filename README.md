@@ -32,25 +32,25 @@ ChunkLoadError: Loading chunk node_modules_next_dist_client_dev_noop_js failed.
 (error: http://localhost:3000/_next/static/chunks/fallback/node_modules_next_dist_client_dev_noop_js.js)
 Call Stack
 __webpack_require__.f.j
-file:/Users/gthb/git/next-tries-to-do-wasm/.next/static/chunks/webpack.js (824:29)
+file:/Users/gthb/git/try-to-use-wasm-in-next.js/.next/static/chunks/webpack.js (824:29)
 __webpack_require__.e/<
 /_next/static/chunks/webpack.js (229:40)
 __webpack_require__.e
-file:/Users/gthb/git/next-tries-to-do-wasm/.next/static/chunks/webpack.js (228:67)
+file:/Users/gthb/git/try-to-use-wasm-in-next.js/.next/static/chunks/webpack.js (228:67)
 createRequire/fn.e
 /_next/static/chunks/webpack.js (463:50)
 <unknown>
 node_modules/next/dist/client/next-dev.js (20:0)
 ./node_modules/next/dist/client/next-dev.js
-file:/Users/gthb/git/next-tries-to-do-wasm/.next/static/chunks/main.js (589:1)
+file:/Users/gthb/git/try-to-use-wasm-in-next.js/.next/static/chunks/main.js (589:1)
 options.factory
 /_next/static/chunks/webpack.js (774:31)
 __webpack_require__
-file:/Users/gthb/git/next-tries-to-do-wasm/.next/static/chunks/webpack.js (37:33)
+file:/Users/gthb/git/try-to-use-wasm-in-next.js/.next/static/chunks/webpack.js (37:33)
 __webpack_exec__
 /_next/static/chunks/main.js (1399:61)
 <unknown>
-file:/Users/gthb/git/next-tries-to-do-wasm/.next/static/chunks/main.js (1400:53)
+file:/Users/gthb/git/try-to-use-wasm-in-next.js/.next/static/chunks/main.js (1400:53)
 <unknown>
 webpackJsonpCallback@http://localhost:3000/_next/static/chunks/webpack.js?ts=1632327165178 (1357:46)
 <unknown>
@@ -66,7 +66,7 @@ SyntaxError: Cannot use import statement outside a module
 This error happened while generating the page. Any console logs will be displayed in the terminal window.
 Call Stack
 <unknown>
-file:/Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/hello_wasm_pack.js (2)
+file:/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/hello_wasm_pack.js (2)
 wrapSafe
 internal/modules/cjs/loader.js (988:16)
 Module._compile
@@ -82,9 +82,9 @@ internal/modules/cjs/loader.js (961:19)
 require
 internal/modules/cjs/helpers.js (92:18)
 Object.hello-wasm-pack
-file:/Users/gthb/git/next-tries-to-do-wasm/.next/server/pages/index.js (86:18)
+file:/Users/gthb/git/try-to-use-wasm-in-next.js/.next/server/pages/index.js (86:18)
 __webpack_require__
-file:/Users/gthb/git/next-tries-to-do-wasm/.next/server/webpack-runtime.js (33:42)
+file:/Users/gthb/git/try-to-use-wasm-in-next.js/.next/server/webpack-runtime.js (33:42)
 eval
 webpack-internal:///./pages/index.js (11:73)
 ```
@@ -109,7 +109,7 @@ event - compiled successfully
 event - build page: /
 wait  - compiling...
 event - compiled successfully
-error - /Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/hello_wasm_pack.js:2
+error - /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/hello_wasm_pack.js:2
 import * as wasm from './hello_wasm_pack_bg';
 ^^^^^^
 
@@ -121,8 +121,8 @@ SyntaxError: Cannot use import statement outside a module
     at Function.Module._load (internal/modules/cjs/loader.js:778:12)
     at Module.require (internal/modules/cjs/loader.js:961:19)
     at require (internal/modules/cjs/helpers.js:92:18)
-    at Object.hello-wasm-pack (/Users/gthb/git/next-tries-to-do-wasm/.next/server/pages/index.js:86:18)
-    at __webpack_require__ (/Users/gthb/git/next-tries-to-do-wasm/.next/server/webpack-runtime.js:33:42)
+    at Object.hello-wasm-pack (/Users/gthb/git/try-to-use-wasm-in-next.js/.next/server/pages/index.js:86:18)
+    at __webpack_require__ (/Users/gthb/git/try-to-use-wasm-in-next.js/.next/server/webpack-runtime.js:33:42)
     at eval (webpack-internal:///./pages/index.js:11:73) {
   page: '/'
 }
@@ -138,7 +138,7 @@ SyntaxError: Cannot use import statement outside a module
 This error happened while generating the page. Any console logs will be displayed in the terminal window.
 Call Stack
 <unknown>
-file:/Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/hello_wasm_pack.js (2)
+file:/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/hello_wasm_pack.js (2)
 wrapSafe
 internal/modules/cjs/loader.js (988:16)
 Module._compile
@@ -154,9 +154,9 @@ internal/modules/cjs/loader.js (961:19)
 require
 internal/modules/cjs/helpers.js (92:18)
 Object.hello-wasm-pack
-file:/Users/gthb/git/next-tries-to-do-wasm/.next/server/pages/index.js (86:18)
+file:/Users/gthb/git/try-to-use-wasm-in-next.js/.next/server/pages/index.js (86:18)
 __webpack_require__
-file:/Users/gthb/git/next-tries-to-do-wasm/.next/server/webpack-runtime.js (33:42)
+file:/Users/gthb/git/try-to-use-wasm-in-next.js/.next/server/webpack-runtime.js (33:42)
 eval
 webpack-internal:///./pages/index.js (11:73)
 ```
@@ -179,21 +179,21 @@ event - compiled successfully
 event - build page: /
 wait  - compiling...
 event - compiled successfully
-error - Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: /Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/hello_wasm_pack.js
+error - Error [ERR_REQUIRE_ESM]: Must use import to load ES Module: /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/hello_wasm_pack.js
 require() of ES modules is not supported.
-require() of /Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/hello_wasm_pack.js from /Users/gthb/git/next-tries-to-do-wasm/.next/server/pages/index.js is an ES module file as it is a .js file whose nearest parent p>
-Instead rename hello_wasm_pack.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from /Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/package.json.
+require() of /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/hello_wasm_pack.js from /Users/gthb/git/try-to-use-wasm-in-next.js/.next/server/pages/index.js is an ES module file as it is a .js file whose nearest parent p>
+Instead rename hello_wasm_pack.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/package.json.
 
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1089:13)
     at Module.load (internal/modules/cjs/loader.js:937:32)
     at Function.Module._load (internal/modules/cjs/loader.js:778:12)
     at Module.require (internal/modules/cjs/loader.js:961:19)
     at require (internal/modules/cjs/helpers.js:92:18)
-    at Object.hello-wasm-pack (/Users/gthb/git/next-tries-to-do-wasm/.next/server/pages/index.js:86:18)
-    at __webpack_require__ (/Users/gthb/git/next-tries-to-do-wasm/.next/server/webpack-runtime.js:33:42)
+    at Object.hello-wasm-pack (/Users/gthb/git/try-to-use-wasm-in-next.js/.next/server/pages/index.js:86:18)
+    at __webpack_require__ (/Users/gthb/git/try-to-use-wasm-in-next.js/.next/server/webpack-runtime.js:33:42)
     at eval (webpack-internal:///./pages/index.js:11:73)
-    at Object../pages/index.js (/Users/gthb/git/next-tries-to-do-wasm/.next/server/pages/index.js:55:1)
-    at __webpack_require__ (/Users/gthb/git/next-tries-to-do-wasm/.next/server/webpack-runtime.js:33:42) {
+    at Object../pages/index.js (/Users/gthb/git/try-to-use-wasm-in-next.js/.next/server/pages/index.js:55:1)
+    at __webpack_require__ (/Users/gthb/git/try-to-use-wasm-in-next.js/.next/server/webpack-runtime.js:33:42) {
   code: 'ERR_REQUIRE_ESM',
   page: '/'
 }
@@ -205,10 +205,10 @@ Error shown in browser:
 1 of 1 unhandled error
 Server Error
 
-Error: Must use import to load ES Module: /Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/hello_wasm_pack.js
+Error: Must use import to load ES Module: /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/hello_wasm_pack.js
 require() of ES modules is not supported.
-require() of /Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/hello_wasm_pack.js from /Users/gthb/git/next-tries-to-do-wasm/.next/server/pages/index.js is an ES module file as it is a .js file whose nearest parent p>
-Instead rename hello_wasm_pack.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from /Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/package.json.
+require() of /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/hello_wasm_pack.js from /Users/gthb/git/try-to-use-wasm-in-next.js/.next/server/pages/index.js is an ES module file as it is a .js file whose nearest parent p>
+Instead rename hello_wasm_pack.js to end in .cjs, change the requiring code to use import(), or remove "type": "module" from /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/package.json.
 This error happened while generating the page. Any console logs will be displayed in the terminal window.
 Call Stack
 Object.Module._extensions..js
@@ -222,15 +222,15 @@ internal/modules/cjs/loader.js (961:19)
 require
 internal/modules/cjs/helpers.js (92:18)
 Object.hello-wasm-pack
-file:/Users/gthb/git/next-tries-to-do-wasm/.next/server/pages/index.js (86:18)
+file:/Users/gthb/git/try-to-use-wasm-in-next.js/.next/server/pages/index.js (86:18)
 __webpack_require__
-file:/Users/gthb/git/next-tries-to-do-wasm/.next/server/webpack-runtime.js (33:42)
+file:/Users/gthb/git/try-to-use-wasm-in-next.js/.next/server/webpack-runtime.js (33:42)
 eval
 webpack-internal:///./pages/index.js (11:73)
 Object../pages/index.js
-file:/Users/gthb/git/next-tries-to-do-wasm/.next/server/pages/index.js (55:1)
+file:/Users/gthb/git/try-to-use-wasm-in-next.js/.next/server/pages/index.js (55:1)
 __webpack_require__
-file:/Users/gthb/git/next-tries-to-do-wasm/.next/server/webpack-runtime.js (33:42)
+file:/Users/gthb/git/try-to-use-wasm-in-next.js/.next/server/webpack-runtime.js (33:42)
 ```
 
 ## Enable `experimental.esmExternals`
@@ -254,24 +254,24 @@ event - compiled successfully
 event - build page: /
 wait  - compiling...
 Failed to parse source map: TypeError: Cannot read property 'line' of undefined
-    at Object.getNotFoundError (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/parseNotFoundError.js:69:29)
-    at Object.getModuleBuildError (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/webpackModuleError.js:74:58)
-    at /Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js:14:80
+    at Object.getNotFoundError (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/parseNotFoundError.js:69:29)
+    at Object.getModuleBuildError (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/webpackModuleError.js:74:58)
+    at /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js:14:80
     at Array.map (<anonymous>)
-    at /Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js:12:79
-    at Hook.eval [as callAsync] (eval at create (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:8:17)
-    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/compiled/webpack/bundle5.js:33634:14)
-    at /Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/compiled/webpack/bundle5.js:45256:38
-    at eval (eval at create (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:15:1)
-    at Hook.eval [as callAsync] (eval at create (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:6:1)
+    at /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js:12:79
+    at Hook.eval [as callAsync] (eval at create (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:8:17)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/compiled/webpack/bundle5.js:33634:14)
+    at /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/compiled/webpack/bundle5.js:45256:38
+    at eval (eval at create (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:15:1)
+    at Hook.eval [as callAsync] (eval at create (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:6:1)
 error - ./node_modules/hello-wasm-pack/hello_wasm_pack_bg.wasm
-Module not found: Can't resolve './hello_wasm_pack' in '/Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack'
+Module not found: Can't resolve './hello_wasm_pack' in '/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack'
 Did you mean 'hello_wasm_pack.js'?
 BREAKING CHANGE: The request './hello_wasm_pack' failed to resolve only because it was resolved as fully specified
 (probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
 The extension in the request is mandatory for it to be fully specified.
 Add the extension to the request.
-error - unhandledRejection: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/hello_wasm_pack_bg' imported from /Users/gthb/git/next-tries-to-do-wasm/node_modules/hel>
+error - unhandledRejection: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/hello_wasm_pack_bg' imported from /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hel>
     at finalizeResolution (internal/modules/esm/resolve.js:285:11)
     at moduleResolve (internal/modules/esm/resolve.js:708:10)
     at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:819:11)
@@ -281,7 +281,7 @@ error - unhandledRejection: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/U
     at link (internal/modules/esm/module_job.js:72:36) {
   code: 'ERR_MODULE_NOT_FOUND'
 }
-error - Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/hello_wasm_pack_bg' imported from /Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/hello_w>
+error - Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/hello_wasm_pack_bg' imported from /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/hello_w>
     at finalizeResolution (internal/modules/esm/resolve.js:285:11)
     at moduleResolve (internal/modules/esm/resolve.js:708:10)
     at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:819:11)
@@ -315,24 +315,24 @@ event - compiled successfully
 event - build page: /
 wait  - compiling...
 Failed to parse source map: TypeError: Cannot read property 'line' of undefined
-    at Object.getNotFoundError (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/parseNotFoundError.js:69:29)
-    at Object.getModuleBuildError (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/webpackModuleError.js:74:58)
-    at /Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js:14:80
+    at Object.getNotFoundError (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/parseNotFoundError.js:69:29)
+    at Object.getModuleBuildError (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/webpackModuleError.js:74:58)
+    at /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js:14:80
     at Array.map (<anonymous>)
-    at /Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js:12:79
-    at Hook.eval [as callAsync] (eval at create (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:8:17)
-    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/compiled/webpack/bundle5.js:33634:14)
-    at /Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/compiled/webpack/bundle5.js:45256:38
-    at eval (eval at create (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:15:1)
-    at Hook.eval [as callAsync] (eval at create (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:6:1)
+    at /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js:12:79
+    at Hook.eval [as callAsync] (eval at create (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:8:17)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/compiled/webpack/bundle5.js:33634:14)
+    at /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/compiled/webpack/bundle5.js:45256:38
+    at eval (eval at create (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:15:1)
+    at Hook.eval [as callAsync] (eval at create (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:6:1)
 error - ./node_modules/hello-wasm-pack/hello_wasm_pack_bg.wasm
-Module not found: Can't resolve './hello_wasm_pack' in '/Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack'
+Module not found: Can't resolve './hello_wasm_pack' in '/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack'
 Did you mean 'hello_wasm_pack.js'?
 BREAKING CHANGE: The request './hello_wasm_pack' failed to resolve only because it was resolved as fully specified
 (probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
 The extension in the request is mandatory for it to be fully specified.
 Add the extension to the request.
-error - unhandledRejection: TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".wasm" for /Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/hello_wasm_pack_bg.wasm
+error - unhandledRejection: TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".wasm" for /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/hello_wasm_pack_bg.wasm
     at Loader.defaultGetFormat [as _getFormat] (internal/modules/esm/get_format.js:71:15)
     at Loader.getFormat (internal/modules/esm/loader.js:105:42)
     at Loader.getModuleJob (internal/modules/esm/loader.js:243:31)
@@ -341,7 +341,7 @@ error - unhandledRejection: TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file
     at async link (internal/modules/esm/module_job.js:80:9) {
   code: 'ERR_UNKNOWN_FILE_EXTENSION'
 }
-error - TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".wasm" for /Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/hello_wasm_pack_bg.wasm
+error - TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".wasm" for /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/hello_wasm_pack_bg.wasm
     at Loader.defaultGetFormat [as _getFormat] (internal/modules/esm/get_format.js:71:15)
     at Loader.getFormat (internal/modules/esm/loader.js:105:42)
     at Loader.getModuleJob (internal/modules/esm/loader.js:243:31)
@@ -359,7 +359,7 @@ Error shown in browser:
 Failed to compile
 
 ./node_modules/hello-wasm-pack/hello_wasm_pack_bg.wasm
-Module not found: Can't resolve './hello_wasm_pack' in '/Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack'
+Module not found: Can't resolve './hello_wasm_pack' in '/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack'
 Did you mean 'hello_wasm_pack.js'?
 BREAKING CHANGE: The request './hello_wasm_pack' failed to resolve only because it was resolved as fully specified
 (probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
@@ -397,24 +397,24 @@ event - compiled successfully
 event - build page: /
 wait  - compiling...
 Failed to parse source map: TypeError: Cannot read property 'line' of undefined
-    at Object.getNotFoundError (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/parseNotFoundError.js:69:29)
-    at Object.getModuleBuildError (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/webpackModuleError.js:74:58)
-    at /Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js:14:80
+    at Object.getNotFoundError (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/parseNotFoundError.js:69:29)
+    at Object.getModuleBuildError (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/webpackModuleError.js:74:58)
+    at /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js:14:80
     at Array.map (<anonymous>)
-    at /Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js:12:79
-    at Hook.eval [as callAsync] (eval at create (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:8:17)
-    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/compiled/webpack/bundle5.js:33634:14)
-    at /Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/compiled/webpack/bundle5.js:45256:38
-    at eval (eval at create (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:15:1)
-    at Hook.eval [as callAsync] (eval at create (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:6:1)
+    at /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js:12:79
+    at Hook.eval [as callAsync] (eval at create (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:8:17)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/compiled/webpack/bundle5.js:33634:14)
+    at /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/compiled/webpack/bundle5.js:45256:38
+    at eval (eval at create (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:15:1)
+    at Hook.eval [as callAsync] (eval at create (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/compiled/webpack/bundle5.js:33832:10), <anonymous>:6:1)
 error - ./node_modules/hello-wasm-pack/hello_wasm_pack_bg.wasm
-Module not found: Can't resolve './hello_wasm_pack' in '/Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack'
+Module not found: Can't resolve './hello_wasm_pack' in '/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack'
 Did you mean 'hello_wasm_pack.js'?
 BREAKING CHANGE: The request './hello_wasm_pack' failed to resolve only because it was resolved as fully specified
 (probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
 The extension in the request is mandatory for it to be fully specified.
 Add the extension to the request.
-error - unhandledRejection: TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".wasm" for /Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/hello_wasm_pack_bg.wasm
+error - unhandledRejection: TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".wasm" for /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/hello_wasm_pack_bg.wasm
     at Loader.defaultGetFormat [as _getFormat] (internal/modules/esm/get_format.js:71:15)
     at Loader.getFormat (internal/modules/esm/loader.js:105:42)
     at Loader.getModuleJob (internal/modules/esm/loader.js:243:31)
@@ -446,7 +446,7 @@ event - compiled successfully
 event - build page: /
 wait  - compiling...
 event - compiled successfully
-error - unhandledRejection: TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".wasm" for /Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/hello_wasm_pack_bg.wasm
+error - unhandledRejection: TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".wasm" for /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/hello_wasm_pack_bg.wasm
     at Loader.defaultGetFormat [as _getFormat] (internal/modules/esm/get_format.js:71:15)
     at Loader.getFormat (internal/modules/esm/loader.js:105:42)
     at Loader.getModuleJob (internal/modules/esm/loader.js:243:31)
@@ -455,7 +455,7 @@ error - unhandledRejection: TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file
     at async link (internal/modules/esm/module_job.js:80:9) {
   code: 'ERR_UNKNOWN_FILE_EXTENSION'
 }
-error - TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".wasm" for /Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/hello_wasm_pack_bg.wasm
+error - TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".wasm" for /Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/hello_wasm_pack_bg.wasm
     at Loader.defaultGetFormat [as _getFormat] (internal/modules/esm/get_format.js:71:15)
     at Loader.getFormat (internal/modules/esm/loader.js:105:42)
     at Loader.getModuleJob (internal/modules/esm/loader.js:243:31)
@@ -495,16 +495,16 @@ event - compiled successfully
 (node:67542) ExperimentalWarning: Importing Web Assembly modules is an experimental feature. This feature could change at any time
 (Use `node --trace-warnings ...` to show where the warning was created)
 error - ReferenceError: alert is not defined
-    at __wbg_alert_955be295a438967b (file:///Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/hello_wasm_pack.js:20:5)
+    at __wbg_alert_955be295a438967b (file:///Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/hello_wasm_pack.js:20:5)
     at greet (<anonymous>:wasm-function[1]:0xcd)
-    at greet (file:///Users/gthb/git/next-tries-to-do-wasm/node_modules/hello-wasm-pack/hello_wasm_pack.js:26:17)
+    at greet (file:///Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/hello-wasm-pack/hello_wasm_pack.js:26:17)
     at Home (webpack-internal:///./pages/index.js:24:57)
-    at processChild (/Users/gthb/git/next-tries-to-do-wasm/node_modules/react-dom/cjs/react-dom-server.node.development.js:3353:14)
-    at resolve (/Users/gthb/git/next-tries-to-do-wasm/node_modules/react-dom/cjs/react-dom-server.node.development.js:3270:5)
-    at ReactDOMServerRenderer.render (/Users/gthb/git/next-tries-to-do-wasm/node_modules/react-dom/cjs/react-dom-server.node.development.js:3753:22)
-    at ReactDOMServerRenderer.read (/Users/gthb/git/next-tries-to-do-wasm/node_modules/react-dom/cjs/react-dom-server.node.development.js:3690:29)
-    at Object.renderToString (/Users/gthb/git/next-tries-to-do-wasm/node_modules/react-dom/cjs/react-dom-server.node.development.js:4298:27)
-    at Object.renderPage (/Users/gthb/git/next-tries-to-do-wasm/node_modules/next/dist/server/render.js:596:45) {
+    at processChild (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/react-dom/cjs/react-dom-server.node.development.js:3353:14)
+    at resolve (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/react-dom/cjs/react-dom-server.node.development.js:3270:5)
+    at ReactDOMServerRenderer.render (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/react-dom/cjs/react-dom-server.node.development.js:3753:22)
+    at ReactDOMServerRenderer.read (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/react-dom/cjs/react-dom-server.node.development.js:3690:29)
+    at Object.renderToString (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/react-dom/cjs/react-dom-server.node.development.js:4298:27)
+    at Object.renderPage (/Users/gthb/git/try-to-use-wasm-in-next.js/node_modules/next/dist/server/render.js:596:45) {
   page: '/'
 }
 ```
