@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build-wasm": "wasm-pack build hello-wasm ; jq '. + {type: \"module\", main: .module} | del(.module)' hello-wasm/pkg/package.json | sponge hello-wasm/pkg/package.json",
+    "build-wasm": "wasm-pack build hi-wasm ; jq '. + {type: \"module\", main: .module} | del(.module)' hi-wasm/pkg/package.json | sponge hi-wasm/pkg/package.json",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

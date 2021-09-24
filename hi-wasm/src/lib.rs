@@ -10,5 +10,5 @@ static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
 
 #[wasm_bindgen]
 pub fn greeting(name: &str) -> String {
-    format!("Hello, {}", name)
+    format!("Hi {}.", name)
 }

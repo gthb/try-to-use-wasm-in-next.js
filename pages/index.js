@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { greeting } from 'hello-wasm';
+import { greeting } from 'hi-wasm';
 
 export default function Home() {
   return (
