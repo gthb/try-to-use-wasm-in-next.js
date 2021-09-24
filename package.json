@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build-wasm": "wasm-pack build hi-wasm ; jq '. + {type: \"module\", main: \"hi_wasm.js\"} | del(.module)' hi-wasm/pkg/package.json | sponge hi-wasm/pkg/package.json",
+    "link-wasm": "cd hi-wasm/pkg ; yarn link ; cd - ; yarn link hi-wasm",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
